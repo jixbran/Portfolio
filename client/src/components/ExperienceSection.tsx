@@ -3,40 +3,16 @@ import { ExperienceCard } from './ExperienceCard';
 export function ExperienceSection() {
   const experiences = [
     {
-      company: 'Tech AI Corp',
-      role: 'Senior ML Engineer',
-      duration: '2022 - Present',
+      company: 'AICTE & EY Global Delivery Services',
+      role: 'MERN Stack Development Intern',
+      duration: 'Feb 2025 - Mar 2025',
       achievements: [
-        'Led development of computer vision pipeline processing 10M+ images daily with 99.2% accuracy',
-        'Reduced model inference latency by 60% through ONNX optimization and GPU acceleration',
-        'Architected distributed training system enabling 8x faster model iteration',
-        'Mentored team of 5 ML engineers on best practices and system design',
+        'Successfully completed a 6-week internship under the Next Gen Employability Program',
+        'Built modern web applications using the MERN stack (MongoDB, Express.js, React.js, Node.js)',
+        'Gained hands-on experience in frontend & backend integration, REST API development, and database management',
+        'Collaborated in a structured, industry-oriented program to enhance employability and technical proficiency',
       ],
-      techStack: ['PyTorch', 'TensorFlow', 'AWS', 'Docker', 'Kubernetes'],
-    },
-    {
-      company: 'AI Research Lab',
-      role: 'Machine Learning Researcher',
-      duration: '2020 - 2022',
-      achievements: [
-        'Published 3 papers on neural architecture search in top-tier ML conferences',
-        'Developed novel attention mechanisms improving transformer efficiency by 40%',
-        'Built benchmark datasets and evaluation frameworks adopted by research community',
-        'Collaborated with cross-functional teams on production ML deployments',
-      ],
-      techStack: ['PyTorch', 'JAX', 'Python', 'CUDA', 'Weights & Biases'],
-    },
-    {
-      company: 'Data Science Startup',
-      role: 'ML Engineer',
-      duration: '2018 - 2020',
-      achievements: [
-        'Implemented end-to-end ML pipelines for time series forecasting and anomaly detection',
-        'Achieved 95% accuracy on customer churn prediction model deployed to production',
-        'Optimized data processing workflows reducing training time by 70%',
-        'Created internal ML tooling and libraries adopted across engineering teams',
-      ],
-      techStack: ['Scikit-learn', 'TensorFlow', 'PostgreSQL', 'Flask', 'Docker'],
+      techStack: ['MongoDB', 'Express.js', 'React', 'Node.js', 'REST API'],
     },
   ];
 
@@ -48,7 +24,7 @@ export function ExperienceSection() {
             Professional <span className="text-primary">Experience</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Building production ML systems at scale
+            Hands-on experience in full-stack development and ML engineering
           </p>
         </div>
 

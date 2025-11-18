@@ -10,40 +10,40 @@ export function AboutSection() {
 
         <div className="space-y-6 text-lg leading-relaxed">
           <p className="text-foreground">
-            I'm an <span className="font-semibold text-primary">AI/ML Engineer</span> specializing in deep learning, 
-            computer vision, and neural architecture design. With a strong foundation in mathematics and 
-            computer science, I build intelligent systems that solve real-world problems at scale.
+            I'm <span className="font-semibold text-primary">Jibran Attar</span>, a Computer Engineering student 
+            passionate about AI/ML and building intelligent systems. Currently pursuing my Bachelor's degree at 
+            K J College of Engineering & Management Research, Pune, graduating in 2026.
           </p>
 
           <p className="text-muted-foreground">
-            My expertise spans the entire ML lifecycle—from research and experimentation to production 
-            deployment and optimization. I'm passionate about pushing the boundaries of what's possible 
-            with machine learning while maintaining a focus on practical, scalable solutions.
+            My journey in technology combines practical machine learning projects with full-stack development 
+            experience. I've worked on diverse projects ranging from IPL match prediction systems to real-time 
+            pose detection applications, leveraging frameworks like PyTorch, TensorFlow, and Scikit-learn.
           </p>
 
           <p className="text-muted-foreground">
-            Currently exploring <span className="text-accent font-medium">neural architecture search</span>, 
-            <span className="text-primary font-medium"> efficient transformers</span>, and 
-            <span className="text-accent font-medium"> multi-modal learning</span>. Always excited to 
-            collaborate on challenging ML problems and contribute to the open-source community.
+            Currently exploring <span className="text-accent font-medium">deep learning</span>, 
+            <span className="text-primary font-medium"> computer vision</span>, and 
+            <span className="text-accent font-medium"> NLP applications</span>. I'm eager to contribute to 
+            innovative AI/ML projects and continue learning cutting-edge technologies in the field.
           </p>
 
           <div className="pt-8 grid grid-cols-2 sm:grid-cols-4 gap-4">
             <div className="text-center p-4 border border-border rounded-md hover-elevate transition-all" data-testid="stat-publications">
-              <div className="text-3xl font-bold font-mono text-primary">12</div>
-              <div className="text-sm text-muted-foreground mt-1">Publications</div>
+              <div className="text-3xl font-bold font-mono text-primary">2026</div>
+              <div className="text-sm text-muted-foreground mt-1">Graduation</div>
             </div>
             <div className="text-center p-4 border border-border rounded-md hover-elevate transition-all" data-testid="stat-years">
-              <div className="text-3xl font-bold font-mono text-accent">6+</div>
-              <div className="text-sm text-muted-foreground mt-1">Years</div>
+              <div className="text-3xl font-bold font-mono text-accent">3+</div>
+              <div className="text-sm text-muted-foreground mt-1">ML Projects</div>
             </div>
             <div className="text-center p-4 border border-border rounded-md hover-elevate transition-all" data-testid="stat-projects">
-              <div className="text-3xl font-bold font-mono text-primary">50+</div>
-              <div className="text-sm text-muted-foreground mt-1">Projects</div>
+              <div className="text-3xl font-bold font-mono text-primary">81%</div>
+              <div className="text-sm text-muted-foreground mt-1">Best Accuracy</div>
             </div>
             <div className="text-center p-4 border border-border rounded-md hover-elevate transition-all" data-testid="stat-citations">
-              <div className="text-3xl font-bold font-mono text-accent">500+</div>
-              <div className="text-sm text-muted-foreground mt-1">Citations</div>
+              <div className="text-3xl font-bold font-mono text-accent">10+</div>
+              <div className="text-sm text-muted-foreground mt-1">Tech Skills</div>
             </div>
           </div>
         </div>

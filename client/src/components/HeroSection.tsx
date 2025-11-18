@@ -21,13 +21,13 @@ export function HeroSection() {
         <div className="text-center space-y-8">
           <div className="space-y-4">
             <h1 className="text-5xl sm:text-6xl lg:text-8xl font-bold font-mono tracking-tight">
-              <span className="gradient-text">AI/ML Engineer</span>
+              <span className="gradient-text">Jibran Attar</span>
             </h1>
             <p className="text-xl sm:text-2xl lg:text-3xl text-muted-foreground font-mono max-w-3xl mx-auto">
-              Building intelligent systems with
-              <span className="text-primary"> neural networks</span>,
-              <span className="text-accent"> deep learning</span>, and
-              <span className="text-primary"> computer vision</span>
+              Aspiring AI/ML Engineer specializing in
+              <span className="text-primary"> machine learning</span>,
+              <span className="text-accent"> computer vision</span>, and
+              <span className="text-primary"> full-stack development</span>
             </p>
           </div>
 
@@ -43,7 +43,7 @@ export function HeroSection() {
             <Button
               size="lg"
               variant="outline"
-              onClick={() => window.open('https://github.com', '_blank')}
+              onClick={() => window.open('https://github.com/jixbran', '_blank')}
               className="font-mono"
               data-testid="button-github"
             >
@@ -53,16 +53,16 @@ export function HeroSection() {
 
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-3xl mx-auto pt-12">
             <Card className="p-6 hover-elevate transition-all" data-testid="card-metric-1">
-              <div className="font-mono text-4xl font-bold text-primary">50+</div>
-              <div className="text-sm text-muted-foreground mt-2">Models Deployed</div>
+              <div className="font-mono text-4xl font-bold text-primary">3+</div>
+              <div className="text-sm text-muted-foreground mt-2">ML Projects</div>
             </Card>
             <Card className="p-6 hover-elevate transition-all" data-testid="card-metric-2">
-              <div className="font-mono text-4xl font-bold text-accent">99.2%</div>
-              <div className="text-sm text-muted-foreground mt-2">Avg Accuracy</div>
+              <div className="font-mono text-4xl font-bold text-accent">81%</div>
+              <div className="text-sm text-muted-foreground mt-2">Best Model Accuracy</div>
             </Card>
             <Card className="p-6 hover-elevate transition-all" data-testid="card-metric-3">
-              <div className="font-mono text-4xl font-bold text-primary">10ms</div>
-              <div className="text-sm text-muted-foreground mt-2">Inference Time</div>
+              <div className="font-mono text-4xl font-bold text-primary">2026</div>
+              <div className="text-sm text-muted-foreground mt-2">Graduating</div>
             </Card>
           </div>
         </div>

@@ -7,7 +7,7 @@ export function ContactSection() {
   const { toast } = useToast();
 
   const copyEmail = () => {
-    navigator.clipboard.writeText('ml.engineer@example.com');
+    navigator.clipboard.writeText('jibran2004attar@gmail.com');
     toast({
       title: 'Email copied!',
       description: 'The email address has been copied to your clipboard.',
@@ -18,13 +18,13 @@ export function ContactSection() {
     {
       icon: Github,
       label: 'GitHub',
-      url: 'https://github.com',
+      url: 'https://github.com/jixbran',
       color: 'hover:text-primary',
     },
     {
       icon: Linkedin,
       label: 'LinkedIn',
-      url: 'https://linkedin.com',
+      url: 'https://linkedin.com/in/jibran19',
       color: 'hover:text-accent',
     },
     {
@@ -88,14 +88,17 @@ export function ContactSection() {
 
           <div className="pt-4 border-t border-border">
             <p className="text-sm text-muted-foreground font-mono">
-              ml.engineer@example.com
+              jibran2004attar@gmail.com
+            </p>
+            <p className="text-sm text-muted-foreground mt-1">
+              +91 9819961411
             </p>
           </div>
         </Card>
 
         <div className="mt-16 text-center">
           <p className="text-sm text-muted-foreground">
-            © 2024 AI/ML Engineer. Built with React, TypeScript, and Tailwind CSS.
+            © 2024 Jibran Attar. Built with React, TypeScript, and Tailwind CSS.
           </p>
         </div>
       </div>
