@@ -7,7 +7,8 @@ export function ProjectsSection() {
   const projects = [
     {
       title: 'IPL Match Analytics Engine',
-      description: 'Engineered an advanced win predictor for IPL matches using Logistic Regression, achieving 81% accuracy. Performed feature engineering on a dataset of 1000+ matches, incorporating team form, venue stats, and head-to-head records.',
+      description:
+        'Engineered an advanced win predictor for IPL matches using Logistic Regression, achieving 81% accuracy. Performed feature engineering on a dataset of 1000+ matches, incorporating team form, venue stats, and head-to-head records.',
       image: trainingConvergenceImg,
       techStack: ['Python', 'Pandas', 'Scikit-learn', 'Streamlit', 'Logistic Regression'],
       metrics: [
@@ -18,7 +19,8 @@ export function ProjectsSection() {
     },
     {
       title: 'Content-Based Recommendation Engine',
-      description: 'Built a movie recommender using NLP to analyze genres, cast, and plot metadata. Utilized TF-IDF vectorization and cosine similarity to rank movies based on user input.',
+      description:
+        'Built a movie recommender using NLP to analyze genres, cast, and plot metadata. Utilized TF-IDF vectorization and cosine similarity to rank movies based on user input.',
       image: nlpTransformerImg,
       techStack: ['Python', 'Pandas', 'Scikit-learn', 'Streamlit', 'NLP'],
       metrics: [
@@ -29,7 +31,8 @@ export function ProjectsSection() {
     },
     {
       title: 'Pose Detection & Form Correction',
-      description: 'Implemented real-time pose estimation using MediaPipe to detect and visualize key body landmarks. Designed a feedback system analyzing joint angles to alert users with posture corrections.',
+      description:
+        'Implemented real-time pose estimation using MediaPipe to detect and visualize key body landmarks. Designed a feedback system analyzing joint angles to alert users with posture corrections.',
       image: cvModelImg,
       techStack: ['Python', 'MediaPipe', 'OpenCV', 'NumPy'],
       metrics: [
